@@ -54,7 +54,7 @@ const Home = () => {
           <div className="mx-auto mt-[30px] relative w-full sm:w-[400px]">
             <IoLocationOutline className="absolute top-1/2 transform -translate-y-1/2 left-[14px] text-[20px]" />
             <input
-              className="bg-white rounded-full w-full sm:w-[400px] py-[14px] px-[40px] focus:outline-none  focus:border-orange-500  focus:border-2 placeholder:text-gray-800 placeholder:text-[14px] text-[14px]"
+              className="bg-white rounded-full w-full sm:w-[400px] py-[14px] px-[40px] focus:outline-none  focus:border-orange-500  focus:border-2 placeholder:text-gray-800 placeholder:text-[12px] text-[12px]"
               placeholder="Enter delivery address"
             />
             <button className="flex justify-center items-center absolute bg-primary hover:bg-orange-600 w-[35px] h-[35px] rounded-full right-[8px] top-1/2 transform -translate-y-1/2">
@@ -70,7 +70,7 @@ const Home = () => {
         </div>
 
         <div className="absolute xl:bottom-[10px] md:-bottom-[15px] bottom-[20px]  left-1/2 transform -translate-x-1/2 ">
-          <h4 className="text-white text-[14px] lg:text-[24px] lg:font-semibold text-center">
+          <h4 className="text-white text-[12px] lg:text-[24px] lg:font-semibold text-center">
             Scroll Down
           </h4>
           <img className="w-[250px]" src={pointdown} />
@@ -86,7 +86,7 @@ const Home = () => {
             <h4 className="mt-[12px] text-[20px] xl:text-[30px] lg:text-[24px] font-[600] text-center">
               Become a Rider
             </h4>
-            <h4 className="mt-auto text-[14px] lg:text-[18px] text-center md:leading-[30px] pt-[10px] font-[500]">
+            <h4 className="mt-auto text-[12px] lg:text-[18px] text-center md:leading-[30px] pt-[10px] font-[500]">
               As a delivery driver, you'll make reliable money—working anytime,
               anywhere.
             </h4>
@@ -102,7 +102,7 @@ const Home = () => {
             <h4 className="mt-[12px] text-[20px] xl:text-[30px] lg:text-[24px] font-[600] text-center">
               Become a Partner
             </h4>
-            <h4 className="mt-auto text-[14px] lg:text-[18px] text-center md:leading-[30px] pt-[10px] font-[500]">
+            <h4 className="mt-auto text-[12px] lg:text-[18px] text-center md:leading-[30px] pt-[10px] font-[500]">
               Grow your business and reach new customers by partnering with us.
             </h4>
             <button className="flex items-center gap-[15px] justify-center mt-[20px]">
@@ -117,7 +117,7 @@ const Home = () => {
             <h4 className="mt-[12px] text-[20px] xl:text-[30px] lg:text-[24px] font-[600] text-center">
               Springfare experience
             </h4>
-            <h4 className="mt-auto text-[14px] lg:text-[18px] text-center md:leading-[30px] pt-[10px] font-[500]">
+            <h4 className="mt-auto text-[12px] lg:text-[18px] text-center md:leading-[30px] pt-[10px] font-[500]">
               Sign up to experience the best your neighborhood has to offer.
             </h4>
             <button className="flex items-center gap-[15px] justify-center mt-[20px]">
@@ -142,11 +142,11 @@ const Home = () => {
           <h4 className="text-[20px] lg:text-[28px] font-semibold mb-[10px]">
             Your favorite local restaurants
           </h4>
-          <h4 className="lg:text-[22px] text-[14px]">
+          <h4 className="lg:text-[22px] text-[12px]">
             Busy? Get food at the speed of a click, delivered fresh to your
             door.
           </h4>
-          <button className="text-[14px] text-white bg-primary hover:bg-orange-600 px-[14px] py-[8px] rounded-full font-[500] md:mt-[30px] mt-[15px]">
+          <button className="text-[12px] text-white bg-primary hover:bg-orange-600 px-[14px] py-[8px] rounded-full font-[500] md:mt-[30px] mt-[15px]">
             Find restaurants
           </button>
         </div>
@@ -163,11 +163,11 @@ const Home = () => {
               Grow your business with SpringFare
             </h4>
 
-            <h4 className="lg:text-[22px] text-[14px]">
+            <h4 className="lg:text-[22px] text-[12px]">
               Businesses large and small partner with SpringFare to reach new
               customers, increase order volume, and drive more sales.
             </h4>
-            <button className="text-[14px] text-white bg-primary hover:bg-orange-600 px-[14px] py-[8px] rounded-full font-[500] md:mt-[30px] mt-[15px]">
+            <button className="text-[12px] text-white bg-primary hover:bg-orange-600 px-[14px] py-[8px] rounded-full font-[500] md:mt-[30px] mt-[15px]">
               Become a Partner
             </button>
           </div>
@@ -178,7 +178,7 @@ const Home = () => {
             <h4 className=" text-[40px] font-medium lg:text-[60px] 2xl:text-[100px] md:border-r-[2px] md:border-gray-200 md:flex justify-center">
               99.9%
             </h4>
-            <h4 className="text-[14px] lg:text-[18px] 2xl:text-[22px]  font-medium md:flex justify-center  md:text-center">
+            <h4 className="text-[12px] lg:text-[18px] 2xl:text-[22px]  font-medium md:flex justify-center  md:text-center">
               No excuses, on time delivery. Fast food is our specialty.
             </h4>
           </div>
@@ -186,7 +186,7 @@ const Home = () => {
             <h4 className=" text-[40px] font-medium lg:text-[60px] 2xl:text-[100px] md:border-r-[2px] md:border-gray-200 md:flex justify-center">
               100+
             </h4>
-            <h4 className="text-[14px] lg:text-[18px] 2xl:text-[22px]  font-medium md:flex justify-center  md:text-center">
+            <h4 className="text-[12px] lg:text-[18px] 2xl:text-[22px]  font-medium md:flex justify-center  md:text-center">
               Food to put you in a good mood.
             </h4>
           </div>
@@ -194,7 +194,7 @@ const Home = () => {
             <h4 className=" text-[40px] font-medium lg:text-[60px] 2xl:text-[100px]  md:flex justify-center">
               #1
             </h4>
-            <h4 className="text-[14px] lg:text-[18px] 2xl:text-[22px]  font-medium md:flex justify-center md:text-center">
+            <h4 className="text-[12px] lg:text-[18px] 2xl:text-[22px]  font-medium md:flex justify-center md:text-center">
               Exceeding your expectations, consistently.
             </h4>
           </div>

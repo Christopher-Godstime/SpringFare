@@ -350,7 +350,7 @@ const Header = ({ show, setShow }) => {
                 </div>
                 <div className={fix ? "hidden" : "flex"}>
                   <Link to="/">
-                    <Logo width="w-[15px]" text="text-[20px]" />
+                    <Logo width="w-[15px]" text="text-[18px]" />
                   </Link>
                 </div>
               </div>
@@ -363,7 +363,7 @@ const Header = ({ show, setShow }) => {
               }
             >
               <input
-                className="pr-[14px] pl-[40px] py-[12px] w-full focus:outline-none  focus:border-orange-300  focus:border-b-2 rounded-t-[6px] text-gray-900 text-[14px]"
+                className="pr-[14px] pl-[40px] py-[12px] w-full focus:outline-none  focus:border-orange-300  focus:border-b-2 rounded-t-[6px] text-gray-900 text-[12px]"
                 placeholder="Enter delivery address"
               />
               <FaLocationDot className="absolute top-1/2 left-[14px] transform  -translate-y-1/2" />
@@ -371,13 +371,13 @@ const Header = ({ show, setShow }) => {
             <div className="hidden lg:flex gap-[10px]">
               <button
                 onClick={() => setLoginModal(!loginModal)}
-                className="flex justify-center items-center w-[90px] bg-orange-500 text-white text-[14px] md:text-[16px] h-[40px] font-[500] rounded-[30px] hover:bg-orange-600"
+                className="flex justify-center items-center w-[90px] bg-orange-500 text-white text-[12px] md:text-[16px] h-[40px] font-[500] rounded-[30px] hover:bg-orange-600"
               >
                 Sign In
               </button>
               <button
                 onClick={() => setSignup(!signup)}
-                className="flex justify-center items-center w-[90px] bg-white text-black text-[14px] md:text-[16px] h-[40px] font-[500] rounded-[30px] hover:bg-gray-100"
+                className="flex justify-center items-center w-[90px] bg-white text-black text-[12px] md:text-[16px] h-[40px] font-[500] rounded-[30px] hover:bg-gray-100"
               >
                 Sign Up
               </button>
@@ -418,7 +418,7 @@ const Header = ({ show, setShow }) => {
                 </div>
                 <div className={fix ? "hidden" : "flex"}>
                   <Link to="/">
-                    <Logo width="w-[15px]" text="text-[20px]" />
+                    <Logo width="w-[15px]" text="text-[18px]" />
                   </Link>
                 </div>
               </div>
@@ -430,7 +430,7 @@ const Header = ({ show, setShow }) => {
                   setLoginModal(!loginModal);
                   setShow(!show);
                 }}
-                className="flex justify-center items-center w-[90px] bg-orange-500 text-white text-[14px] md:text-[16px] h-[40px] font-[500] rounded-[30px] hover:bg-orange-600"
+                className="flex justify-center items-center w-[90px] bg-orange-500 text-white text-[12px] md:text-[16px] h-[40px] font-[500] rounded-[30px] hover:bg-orange-600"
               >
                 Sign In
               </button>
@@ -439,7 +439,7 @@ const Header = ({ show, setShow }) => {
                   setSignup(!signup);
                   setShow(!show);
                 }}
-                className="flex justify-center items-center w-[90px] bg-white text-gray-900 text-[14px] md:text-[16px] h-[40px] font-[500] rounded-[30px] hover:bg-gray-100"
+                className="flex justify-center items-center w-[90px] bg-white text-gray-900 text-[12px] md:text-[16px] h-[40px] font-[500] rounded-[30px] hover:bg-gray-100"
               >
                 Sign Up
               </button>
@@ -473,37 +473,37 @@ const Header = ({ show, setShow }) => {
                 className="text-black text-[30px] cursor-pointer"
               />
             </div>
-            <div className="mt-[20px]">
-              <div className="text-gray-900 text-[24px] font-[600] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
+            <div className="mt-[15px]">
+              <div className="text-gray-900 text-[22px] font-[500] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
                 Log In
               </div>
               <div className="px-[3%] md:px-[5%] h-[calc(40vh+100px)] overflow-y-auto">
                 <form className=" mt-[60px]">
                   <div>
-                    <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                      <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                    <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                      <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                         Email
                       </h4>{" "}
-                      <h4 className="text-[14px] text-primary">*</h4>
+                      <h4 className="text-[12px] text-primary">*</h4>
                     </div>
                     <input
                       type="email"
-                      className="placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                      className="placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                       placeholder="example@abc.com"
                     />
                   </div>
 
-                  <div className="mt-[20px]">
-                    <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                      <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                  <div className="mt-[15px]">
+                    <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                      <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                         Password
                       </h4>{" "}
-                      <h4 className="text-[14px] text-primary">*</h4>
+                      <h4 className="text-[12px] text-primary">*</h4>
                     </div>
                     <div className="relative">
                       <input
                         type={typePass ? "text" : "password"}
-                        className="placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                        className="placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                         placeholder="8+ character, please"
                       />
                       <small
@@ -515,13 +515,13 @@ const Header = ({ show, setShow }) => {
                     </div>
                   </div>
 
-                  <button className="text-white font-[600] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative">
+                  <button className="text-white font-[500] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative">
                     Login
                   </button>
                 </form>
 
                 <div className="mt-[25px]">
-                  <span className="text-[14px] text-gray-800 mt-[25px]  ">
+                  <span className="text-[12px] text-gray-800 mt-[25px]  ">
                     By signing in, you agree to the{" "}
                     <Link to="/terms" className="text-primary">
                       <span onClick={() => setLoginModal(!loginModal)}>
@@ -539,14 +539,14 @@ const Header = ({ show, setShow }) => {
                 </div>
               </div>
             </div>
-            <span className="absolute bottom-[0px] transform left-1/2 -translate-x-1/2  flex gap-[5px] text-gray-600 text-[14px] font-[400] px-[5%] whitespace-nowrap border-t-[1px] border-gray-300 py-[20px] w-full justify-center bg-white">
+            <span className="absolute bottom-[0px] transform left-1/2 -translate-x-1/2  flex gap-[5px] text-gray-600 text-[12px] font-[400] px-[5%] whitespace-nowrap border-t-[1px] border-gray-300 py-[20px] w-full justify-center bg-white">
               {"Don't have an account? "}
               <span
                 onClick={() => {
                   setLoginModal(!loginModal);
                   setSignup(!signup);
                 }}
-                className="text-primary font-[600] cursor-pointer"
+                className="text-primary font-[500] cursor-pointer"
               >
                 Sign up
               </span>
@@ -580,8 +580,8 @@ const Header = ({ show, setShow }) => {
                 className="text-black text-[30px] cursor-pointer"
               />
             </div>
-            <div className="mt-[20px]">
-              <div className="text-gray-900 text-[24px] font-[600] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
+            <div className="mt-[15px]">
+              <div className="text-gray-900 text-[22px] font-[500] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
                 Select User
               </div>
               <div className="px-[5%] h-[calc(40vh+100px)] overflow-y-auto mt-[30px]">
@@ -591,7 +591,7 @@ const Header = ({ show, setShow }) => {
                       setSignup(!signup);
                       setCustomerModal(!customerModal);
                     }}
-                    className="px-[14px] py-[14px] rounded-[8px] bg-secondary font-[600] hover:bg-indigo-900"
+                    className="px-[14px] py-[14px] rounded-[8px] bg-secondary font-[500] hover:bg-indigo-900"
                   >
                     Customer
                   </button>
@@ -600,7 +600,7 @@ const Header = ({ show, setShow }) => {
                       setSignup(!signup);
                       setRiderModal(!riderModal);
                     }}
-                    className="px-[14px] py-[14px] rounded-[8px] bg-secondary font-[600] hover:bg-indigo-900"
+                    className="px-[14px] py-[14px] rounded-[8px] bg-secondary font-[500] hover:bg-indigo-900"
                   >
                     Rider
                   </button>
@@ -609,13 +609,13 @@ const Header = ({ show, setShow }) => {
                       setSignup(!signup);
                       setVendorModal(!vendorModal);
                     }}
-                    className="px-[14px] py-[14px] rounded-[8px] bg-secondary font-[600] hover:bg-indigo-900"
+                    className="px-[14px] py-[14px] rounded-[8px] bg-secondary font-[500] hover:bg-indigo-900"
                   >
                     Vendor
                   </button>
                 </div>
                 <div className="mt-[25px]">
-                  <span className="text-[14px] text-gray-800 mt-[25px]  ">
+                  <span className="text-[12px] text-gray-800 mt-[25px]  ">
                     By signing up, you agree to the{" "}
                     <Link to="/terms" className="text-primary">
                       <span onClick={() => setLoginModal(!loginModal)}>
@@ -633,14 +633,14 @@ const Header = ({ show, setShow }) => {
                 </div>
               </div>
             </div>
-            <span className="absolute bottom-[0px] transform left-1/2 -translate-x-1/2  flex gap-[5px] text-gray-600 text-[14px] font-[400] px-[5%] whitespace-nowrap border-t-[1px] border-gray-300 py-[20px] w-full justify-center bg-white">
+            <span className="absolute bottom-[0px] transform left-1/2 -translate-x-1/2  flex gap-[5px] text-gray-600 text-[12px] font-[400] px-[5%] whitespace-nowrap border-t-[1px] border-gray-300 py-[20px] w-full justify-center bg-white">
               {"Already have an account? "}
               <span
                 onClick={() => {
                   setSignup(!signup);
                   setLoginModal(!loginModal);
                 }}
-                className="text-primary font-[600] cursor-pointer"
+                className="text-primary font-[500] cursor-pointer"
               >
                 Login
               </span>
@@ -681,58 +681,58 @@ const Header = ({ show, setShow }) => {
                 className="text-black text-[30px] cursor-pointer"
               />
             </div>
-            <div className="mt-[20px]">
-              <div className="text-gray-900 text-[24px] font-[600] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
+            <div className="mt-[15px]">
+              <div className="text-gray-900 text-[22px] font-[500] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
                 Customer Sign Up
               </div>
               <div className="px-[3%] md:px-[5%] h-[calc(80vh-50px)] overflow-y-auto pb-[50px]">
                 <form className=" mt-[30px]">
                   <div>
-                    <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                      <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                    <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                      <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                         First Name
                       </h4>{" "}
-                      <h4 className="text-[14px] text-primary">*</h4>
+                      <h4 className="text-[12px] text-primary">*</h4>
                     </div>
                     <input
                       type="text"
-                      className="placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                      className="placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                       placeholder="Enter first name"
                     />
                   </div>
-                  <div className="mt-[20px]">
-                    <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                      <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                  <div className="mt-[15px]">
+                    <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                      <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                         Last Name
                       </h4>{" "}
-                      <h4 className="text-[14px] text-primary">*</h4>
+                      <h4 className="text-[12px] text-primary">*</h4>
                     </div>
                     <input
                       type="text"
-                      className="placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                      className="placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                       placeholder="Enter last name"
                     />
                   </div>
-                  <div className="mt-[20px]">
-                    <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                      <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                  <div className="mt-[15px]">
+                    <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                      <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                         Email
                       </h4>{" "}
-                      <h4 className="text-[14px] text-primary">*</h4>
+                      <h4 className="text-[12px] text-primary">*</h4>
                     </div>
                     <input
                       type="email"
-                      className="placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                      className="placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                       placeholder="example@abc.com"
                     />
                   </div>
 
-                  <div className="mt-[20px]">
-                    <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                      <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                  <div className="mt-[15px]">
+                    <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                      <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                         Phone Number
                       </h4>{" "}
-                      <h4 className="text-[14px] text-primary">*</h4>
+                      <h4 className="text-[12px] text-primary">*</h4>
                     </div>
                     <PhoneInput
                       placeholder="08012345678"
@@ -750,7 +750,7 @@ const Header = ({ show, setShow }) => {
                       inputProps={{
                         required: true,
                       }}
-                      className="placeholder:text-[14px] placeholder:lg:text-[16px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                      className="placeholder:text-[12px] placeholder:lg:text-[16px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                     />
                     {!valid && (
                       <p className="text-red-500">
@@ -759,17 +759,17 @@ const Header = ({ show, setShow }) => {
                     )}
                   </div>
 
-                  <div className="mt-[20px]">
-                    <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                      <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                  <div className="mt-[15px]">
+                    <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                      <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                         Create Password
                       </h4>{" "}
-                      <h4 className="text-[14px] text-primary">*</h4>
+                      <h4 className="text-[12px] text-primary">*</h4>
                     </div>
                     <div className="relative">
                       <input
                         type={typePass1 ? "text" : "password"}
-                        className="placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                        className="placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                         placeholder="8+ character, please"
                       />
                       <small
@@ -781,17 +781,17 @@ const Header = ({ show, setShow }) => {
                     </div>
                   </div>
 
-                  <div className="mt-[20px]">
-                    <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                      <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                  <div className="mt-[15px]">
+                    <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                      <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                         Confirm Password
                       </h4>{" "}
-                      <h4 className="text-[14px] text-primary">*</h4>
+                      <h4 className="text-[12px] text-primary">*</h4>
                     </div>
                     <div className="relative">
                       <input
                         type={typePass2 ? "text" : "password"}
-                        className="placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                        className="placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                         placeholder="Re-enter password"
                       />
                       <small
@@ -803,7 +803,7 @@ const Header = ({ show, setShow }) => {
                     </div>
                   </div>
 
-                  <button className="text-white font-[600] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative">
+                  <button className="text-white font-[500] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative">
                     Register
                   </button>
                 </form>
@@ -860,10 +860,10 @@ const Header = ({ show, setShow }) => {
               />
             </div>
 
-            <div className="text-gray-900 text-[24px] font-[600] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
+            <div className="text-gray-900 text-[22px] font-[500] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
               Rider Sign Up
             </div>
-            <div className="px-[3%] md:px-[5%] mt-[20px] pb-[30px] shadow-lg ">
+            <div className="px-[3%] md:px-[5%] mt-[15px] pb-[30px] shadow-lg ">
               {riderPage !== riderFormTiles.length - 0 && (
                 <div className="rounded-[50px] w-[80%] h-[5px] bg-orange-100  mx-auto">
                   <div
@@ -873,20 +873,20 @@ const Header = ({ show, setShow }) => {
                 </div>
               )}
             </div>
-            <div className="mt-[20px]">
+            <div className="mt-[15px]">
               <div className="px-[3%] md:px-[5%] h-[calc(80vh-120px)] overflow-y-auto ">
-                <h4 className="text-gray-900 text-[20px] font-[600] ">
+                <h4 className="text-gray-900 text-[18px] font-[500] ">
                   {riderFormTiles[riderPage]}
                 </h4>
                 <div className="pb-[20px]">
                   {riderPage === 0 && (
                     <div className=" mt-[30px]">
                       <div>
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             First Name
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={15}
@@ -903,8 +903,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderFirstName
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter first name"
                         />
@@ -914,12 +914,12 @@ const Header = ({ show, setShow }) => {
                           </h4>
                         )}
                       </div>
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Last Name
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={15}
@@ -936,8 +936,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderLastName
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter last name"
                         />
@@ -947,12 +947,12 @@ const Header = ({ show, setShow }) => {
                           </h4>
                         )}
                       </div>
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Email
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           type="email"
@@ -963,8 +963,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderEmail
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="example@abc.com"
                         />
@@ -975,12 +975,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Phone Number
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={11}
@@ -997,8 +997,8 @@ const Header = ({ show, setShow }) => {
                           name="riderPhoneNumber"
                           className={
                             riderErrors.riderPhoneNumber
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter phone number"
                         />
@@ -1009,12 +1009,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Next of Kin Name
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={25}
@@ -1035,8 +1035,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderNextOfKinName
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter next of kin name"
                         />
@@ -1046,12 +1046,12 @@ const Header = ({ show, setShow }) => {
                           </h4>
                         )}
                       </div>
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Next of Kin Phone Number
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={11}
@@ -1068,8 +1068,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderNextOfKinPhoneNumber
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter last name"
                         />
@@ -1080,12 +1080,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Create Password
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <div className="relative">
                           <input
@@ -1097,8 +1097,8 @@ const Header = ({ show, setShow }) => {
                             }
                             className={
                               riderErrors.riderPassword
-                                ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                                : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                                ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                                : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                             }
                             placeholder="8+ character, please"
                           />{" "}
@@ -1115,12 +1115,12 @@ const Header = ({ show, setShow }) => {
                           </h4>
                         )}
                       </div>
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Confirm Password
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <div className="relative">
                           <input
@@ -1134,8 +1134,8 @@ const Header = ({ show, setShow }) => {
                             }
                             className={
                               riderErrors.riderConfirmPassword
-                                ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                                : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                                ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                                : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                             }
                             placeholder="Re-enter password"
                           />
@@ -1158,13 +1158,13 @@ const Header = ({ show, setShow }) => {
 
                   {riderPage === 1 && (
                     <div className=" mt-[30px]">
-                      <div className="mt-[20px]">
+                      <div className="mt-[15px]">
                         {" "}
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Vehicle Type
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <Select
                           options={vehicleTypeOptions}
@@ -1183,9 +1183,9 @@ const Header = ({ show, setShow }) => {
                           </h4>
                         )}
                       </div>
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Plate Number
                           </h4>{" "}
                         </div>
@@ -1202,8 +1202,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderPlateNumber
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Vehicle plate number"
                         />
@@ -1214,12 +1214,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Guarantor Name
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={25}
@@ -1240,8 +1240,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderGuarantorName
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter guarantor name"
                         />
@@ -1252,12 +1252,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Guarantor Phone
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <div className="flex gap-[20px]">
                           <div className="w-[60%]">
@@ -1276,8 +1276,8 @@ const Header = ({ show, setShow }) => {
                               name="riderGuarantorPhoneNumber"
                               className={
                                 riderErrors.riderGuarantorPhoneNumber
-                                  ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                                  : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                                  ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                                  : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                               }
                               placeholder="Enter guarantor phone number"
                             />
@@ -1311,12 +1311,12 @@ const Header = ({ show, setShow }) => {
 
                   {riderPage === 2 && (
                     <div className=" mt-[30px]">
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             What Bank?
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={25}
@@ -1334,8 +1334,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderBankName
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter bank name"
                         />
@@ -1345,12 +1345,12 @@ const Header = ({ show, setShow }) => {
                           </h4>
                         )}
                       </div>
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Account Number
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={10}
@@ -1365,8 +1365,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderAccountNumber
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter account number"
                         />
@@ -1377,12 +1377,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Name on Account
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={25}
@@ -1403,8 +1403,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderAccountName
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter account name"
                         />
@@ -1421,7 +1421,7 @@ const Header = ({ show, setShow }) => {
                     <div>
                       {riderPage === riderFormTiles.length - 1 && (
                         <button
-                          className="text-white font-[600] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative"
+                          className="text-white font-[500] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative"
                           onClick={handleRiderSubmit}
                         >
                           Register
@@ -1429,7 +1429,7 @@ const Header = ({ show, setShow }) => {
                       )}{" "}
                       {riderPage !== riderFormTiles.length - 1 && (
                         <button
-                          className="text-white font-[600] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative"
+                          className="text-white font-[500] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative"
                           onClick={handleRiderNext}
                         >
                           Next
@@ -1490,10 +1490,10 @@ const Header = ({ show, setShow }) => {
                 className="text-black text-[30px] cursor-pointer"
               />
             </div>
-            <div className="text-gray-900 text-[24px] font-[600] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
+            <div className="text-gray-900 text-[22px] font-[500] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
               Vendor Sign Up
             </div>
-            <div className="px-[3%] md:px-[5%] mt-[20px] pb-[30px] shadow-lg ">
+            <div className="px-[3%] md:px-[5%] mt-[15px] pb-[30px] shadow-lg ">
               {vendorPage !== vendorFormTiles.length - 0 && (
                 <div className="rounded-[50px] w-[80%] h-[5px] bg-orange-100  mx-auto">
                   <div
@@ -1503,9 +1503,9 @@ const Header = ({ show, setShow }) => {
                 </div>
               )}
             </div>
-            <div className="mt-[20px]">
+            <div className="mt-[15px]">
               <div className="px-[3%] md:px-[5%] h-[calc(80vh-110px)] overflow-y-auto ">
-                <h4 className="text-gray-900 text-[20px] font-[600] ">
+                <h4 className="text-gray-900 text-[18px] font-[500] ">
                   {vendorFormTiles[vendorPage]}
                 </h4>
                 <div className="pb-[60px]">
@@ -1513,11 +1513,11 @@ const Header = ({ show, setShow }) => {
                     <div className=" mt-[30px]">
                       <div className="grid grid-cols-2 gap-[20px]">
                         <div>
-                          <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                            <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                          <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                            <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                               First Name
                             </h4>{" "}
-                            <h4 className="text-[14px] text-primary">*</h4>
+                            <h4 className="text-[12px] text-primary">*</h4>
                           </div>
                           <input
                             maxLength={15}
@@ -1537,8 +1537,8 @@ const Header = ({ show, setShow }) => {
                             }
                             className={
                               vendorErrors.vendorFirstName
-                                ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                                : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                                ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                                : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                             }
                             placeholder="Enter first name"
                           />
@@ -1549,11 +1549,11 @@ const Header = ({ show, setShow }) => {
                           )}
                         </div>
                         <div className="">
-                          <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                            <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                          <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                            <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                               Last Name
                             </h4>{" "}
-                            <h4 className="text-[14px] text-primary">*</h4>
+                            <h4 className="text-[12px] text-primary">*</h4>
                           </div>
                           <input
                             maxLength={15}
@@ -1573,8 +1573,8 @@ const Header = ({ show, setShow }) => {
                             }
                             className={
                               vendorErrors.vendorLastName
-                                ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                                : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                                ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                                : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                             }
                             placeholder="Enter last name"
                           />
@@ -1585,12 +1585,12 @@ const Header = ({ show, setShow }) => {
                           )}
                         </div>
                       </div>
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Email
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           type="email"
@@ -1601,8 +1601,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             vendorErrors.vendorEmail
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="example@abc.com"
                         />
@@ -1613,12 +1613,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Phone Number
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={11}
@@ -1635,8 +1635,8 @@ const Header = ({ show, setShow }) => {
                           name="vendorPhoneNumber"
                           className={
                             vendorErrors.vendorPhoneNumber
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter phone number"
                         />
@@ -1647,12 +1647,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Create Password
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <div className="relative">
                           <input
@@ -1667,8 +1667,8 @@ const Header = ({ show, setShow }) => {
                             }
                             className={
                               vendorErrors.vendorPassword
-                                ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                                : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                                ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                                : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                             }
                             placeholder="8+ character, please"
                           />{" "}
@@ -1685,12 +1685,12 @@ const Header = ({ show, setShow }) => {
                           </h4>
                         )}
                       </div>
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Confirm Password
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <div className="relative">
                           <input
@@ -1704,8 +1704,8 @@ const Header = ({ show, setShow }) => {
                             }
                             className={
                               vendorErrors.vendorConfirmPassword
-                                ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                                : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                                ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                                : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                             }
                             placeholder="Re-enter password"
                           />
@@ -1728,13 +1728,13 @@ const Header = ({ show, setShow }) => {
 
                   {riderPage === 1 && (
                     <div className=" mt-[30px]">
-                      <div className="mt-[20px]">
+                      <div className="mt-[15px]">
                         {" "}
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Vehicle Type
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <Select
                           options={vehicleTypeOptions}
@@ -1753,9 +1753,9 @@ const Header = ({ show, setShow }) => {
                           </h4>
                         )}
                       </div>
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Plate Number
                           </h4>{" "}
                         </div>
@@ -1772,8 +1772,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderPlateNumber
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Vehicle plate number"
                         />
@@ -1784,12 +1784,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Guarantor Name
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <input
                           maxLength={25}
@@ -1810,8 +1810,8 @@ const Header = ({ show, setShow }) => {
                           }
                           className={
                             riderErrors.riderGuarantorName
-                              ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                              : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                              ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                              : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                           }
                           placeholder="Enter guarantor name"
                         />
@@ -1822,12 +1822,12 @@ const Header = ({ show, setShow }) => {
                         )}
                       </div>
 
-                      <div className="mt-[20px]">
-                        <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
-                          <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
+                      <div className="mt-[15px]">
+                        <div className="flex gap-[5px] items-center font-[500] mb-[5px]">
+                          <h4 className="text-[12px] lg:text-[16px] text-gray-900 ">
                             Guarantor Phone
                           </h4>{" "}
-                          <h4 className="text-[14px] text-primary">*</h4>
+                          <h4 className="text-[12px] text-primary">*</h4>
                         </div>
                         <div className="flex gap-[20px]">
                           <div className="w-[60%]">
@@ -1846,8 +1846,8 @@ const Header = ({ show, setShow }) => {
                               name="riderGuarantorPhoneNumber"
                               className={
                                 riderErrors.riderGuarantorPhoneNumber
-                                  ? "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
-                                  : "placeholder:text-[14px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[14px] lg:text-[16px]"
+                                  ? "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-red-500 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
+                                  : "placeholder:text-[12px] placeholder:lg:text-[16px] px-[14px] py-[10px] border-[1px] border-gray-300 w-full rounded-[8px] focus:outline-none  focus:border-orange-300  focus:border-[1px] text-black text-[12px] lg:text-[16px]"
                               }
                               placeholder="Enter guarantor phone number"
                             />
@@ -1883,7 +1883,7 @@ const Header = ({ show, setShow }) => {
                     <div>
                       {vendorPage === vendorFormTiles.length - 1 && (
                         <button
-                          className="text-white font-[600] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative"
+                          className="text-white font-[500] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative"
                           onClick={handleVendorSubmit}
                         >
                           Register
@@ -1891,7 +1891,7 @@ const Header = ({ show, setShow }) => {
                       )}{" "}
                       {vendorPage !== vendorFormTiles.length - 1 && (
                         <button
-                          className="text-white font-[600] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative"
+                          className="text-white font-[500] px-[16px] py-[12px] bg-primary w-full rounded-[8px] mt-[30px] hover:bg-orange-600 relative"
                           onClick={handleVendorNext}
                         >
                           Next
