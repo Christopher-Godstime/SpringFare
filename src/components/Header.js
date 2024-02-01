@@ -228,7 +228,7 @@ const Header = ({ show, setShow }) => {
   const customStyles = {
     control: (provided, state) => ({
       ...provided,
-      fontSize: "14px",
+      fontSize: "12px",
       padding: "3px",
       height: "39.6px",
       backgroundColor: "white",
@@ -243,7 +243,7 @@ const Header = ({ show, setShow }) => {
     }),
     menu: (provided) => ({
       ...provided,
-      fontSize: "14px",
+      fontSize: "12px",
       marginTop: "10px",
       boxShadow: "0px 10px 15px gray",
       borderRadius: "8px",
@@ -253,7 +253,7 @@ const Header = ({ show, setShow }) => {
 
       backgroundColor: state.isSelected ? "#f97316" : "white",
       color: state.isSelected ? "white" : "black",
-      fontSize: "14px",
+      fontSize: "12px",
       borderRadius: "20px",
       "&:hover": {
         backgroundColor: "#fff7ed",
