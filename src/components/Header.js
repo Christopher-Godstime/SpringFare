@@ -355,12 +355,18 @@ const Header = ({ show, setShow }) => {
                 </div>
               </div>
             </div>
-            <div className={fix ? "flex relative" : "hidden"}>
-              <FaLocationDot className="absolute top-1/2 left-[14px] transform  -translate-y-1/2" />
+            <div
+              className={
+                fix
+                  ? "flex relative justify-end  w-[60%] md:w-[400px]"
+                  : "hidden"
+              }
+            >
               <input
-                className="pr-[14px] pl-[40px] py-[12px] md:w-[400px] focus:outline-none  focus:border-orange-300  focus:border-b-2 rounded-t-[6px] text-gray-900 text-[14px]"
+                className="pr-[14px] pl-[40px] py-[12px] w-full focus:outline-none  focus:border-orange-300  focus:border-b-2 rounded-t-[6px] text-gray-900 text-[14px]"
                 placeholder="Enter delivery address"
               />
+              <FaLocationDot className="absolute top-1/2 left-[14px] transform  -translate-y-1/2" />
             </div>
             <div className="hidden lg:flex gap-[10px]">
               <button
@@ -382,8 +388,8 @@ const Header = ({ show, setShow }) => {
 
       {/* nav bar */}
       <div
-        className={`fixed w-full h-full block lg:hidden ${
-          show ? "translate-x-0" : "-translate-x-full"
+        className={`fixed w-full h-full block z-40 lg:hidden ${
+          show ? "translate-x-0 z-40" : "-translate-x-full z-40"
         } ease-in-out duration-500`}
         style={{
           minWidth: show ? "200px" : "",
@@ -444,8 +450,8 @@ const Header = ({ show, setShow }) => {
 
       {/* Login modals */}
       <div
-        className={`fixed w-full h-full block  ${
-          loginModal ? "translate-y-0" : "translate-y-full"
+        className={`fixed w-full h-full block z-40 ${
+          loginModal ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
           minWidth: loginModal ? "200px" : "",
@@ -456,7 +462,7 @@ const Header = ({ show, setShow }) => {
         }}
       >
         <div
-          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-hidden h-[calc(90vh+20px)]  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px]  ${
+          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-hidden h-[90%]  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px]  ${
             loginModal ? "translate-y-0" : "translate-y-full"
           } ease-in-out duration-500`}
         >
@@ -551,8 +557,8 @@ const Header = ({ show, setShow }) => {
 
       {/* sign up buttons*/}
       <div
-        className={`fixed w-full h-full block  ${
-          signup ? "translate-y-0" : "translate-y-full"
+        className={`fixed w-full h-full block z-40 ${
+          signup ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
           minWidth: signup ? "200px" : "",
@@ -563,7 +569,7 @@ const Header = ({ show, setShow }) => {
         }}
       >
         <div
-          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-auto  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px] h-[calc(90vh+20px)]  ${
+          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-auto  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px] h-[90%]  ${
             signup ? "translate-y-0" : "translate-y-full"
           } ease-in-out duration-500`}
         >
@@ -645,8 +651,8 @@ const Header = ({ show, setShow }) => {
 
       {/* customer sign up*/}
       <div
-        className={`fixed w-full h-full block  ${
-          customerModal ? "translate-y-0" : "translate-y-full"
+        className={`fixed w-full h-full block z-40 ${
+          customerModal ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
           minWidth: customerModal ? "200px" : "",
@@ -657,7 +663,7 @@ const Header = ({ show, setShow }) => {
         }}
       >
         <div
-          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-auto  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px]  ${
+          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-auto  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px] h-[90%] ${
             customerModal ? "translate-y-0" : "translate-y-full"
           } ease-in-out duration-500`}
         >
@@ -679,8 +685,8 @@ const Header = ({ show, setShow }) => {
               <div className="text-gray-900 text-[24px] font-[600] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
                 Customer Sign Up
               </div>
-              <div className="px-[3%] md:px-[5%] h-[calc(80vh-7px)] overflow-y-auto pb-[50px]">
-                <form className=" mt-[50px]">
+              <div className="px-[3%] md:px-[5%] h-[calc(80vh-50px)] overflow-y-auto pb-[50px]">
+                <form className=" mt-[30px]">
                   <div>
                     <div className="flex gap-[5px] items-center font-[600] mb-[5px]">
                       <h4 className="text-[14px] lg:text-[16px] text-gray-900 ">
@@ -809,8 +815,8 @@ const Header = ({ show, setShow }) => {
 
       {/* rider sign up*/}
       <div
-        className={`fixed w-full h-full block  ${
-          riderModal ? "translate-y-0" : "translate-y-full"
+        className={`fixed w-full h-full block z-40 ${
+          riderModal ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
           minWidth: riderModal ? "200px" : "",
@@ -821,7 +827,7 @@ const Header = ({ show, setShow }) => {
         }}
       >
         <div
-          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-auto  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px]  ${
+          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-auto  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px]  h-[90%] ${
             riderModal ? "translate-y-0" : "translate-y-full"
           } ease-in-out duration-500`}
         >
@@ -853,6 +859,7 @@ const Header = ({ show, setShow }) => {
                 className="text-black text-[30px] cursor-pointer"
               />
             </div>
+
             <div className="text-gray-900 text-[24px] font-[600] flex justify-center border-b-[1px] border-gray-300 pb-[10px]">
               Rider Sign Up
             </div>
@@ -866,8 +873,8 @@ const Header = ({ show, setShow }) => {
                 </div>
               )}
             </div>
-            <div className="mt-[60px]">
-              <div className="px-[3%] md:px-[5%] h-[calc(80vh-60px)] overflow-y-auto ">
+            <div className="mt-[20px]">
+              <div className="px-[3%] md:px-[5%] h-[calc(80vh-120px)] overflow-y-auto ">
                 <h4 className="text-gray-900 text-[20px] font-[600] ">
                   {riderFormTiles[riderPage]}
                 </h4>
@@ -1438,10 +1445,9 @@ const Header = ({ show, setShow }) => {
       </div>
 
       {/* vendor sign up */}
-
       <div
-        className={`fixed w-full h-full block  ${
-          vendorModal ? "translate-y-0" : "translate-y-full"
+        className={`fixed w-full h-full block  z-40${
+          vendorModal ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
           minWidth: vendorModal ? "200px" : "",
@@ -1452,7 +1458,7 @@ const Header = ({ show, setShow }) => {
         }}
       >
         <div
-          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-auto  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px]  ${
+          className={`bottom-0 left-1/2 transform -translate-x-1/2 z-40 absolute overflow-y-auto  bg-white sm:w-[500px] w-full rounded-t-[30px] pt-[18px] h-[90%] ${
             vendorModal ? "translate-y-0" : "translate-y-full"
           } ease-in-out duration-500`}
         >
@@ -1498,7 +1504,7 @@ const Header = ({ show, setShow }) => {
               )}
             </div>
             <div className="mt-[20px]">
-              <div className="px-[3%] md:px-[5%] h-[calc(80vh-60px)] overflow-y-auto ">
+              <div className="px-[3%] md:px-[5%] h-[calc(80vh-110px)] overflow-y-auto ">
                 <h4 className="text-gray-900 text-[20px] font-[600] ">
                   {vendorFormTiles[vendorPage]}
                 </h4>
