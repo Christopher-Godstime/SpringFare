@@ -230,7 +230,7 @@ const Header = ({ show, setShow }) => {
       ...provided,
       fontSize: "14px",
       padding: "3px",
-
+      height: "39.6px",
       backgroundColor: "white",
       borderColor: "#d1d5db",
       borderColor: state.isFocused ? "none" : "#d1d5db",
