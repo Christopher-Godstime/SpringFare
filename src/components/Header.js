@@ -388,7 +388,7 @@ const Header = ({ show, setShow }) => {
 
       {/* nav bar */}
       <div
-        className={`fixed w-full h-full block z-40 lg:hidden ${
+        className={`fixed w-full h-full block lg:hidden ${
           show ? "translate-x-0 z-40" : "-translate-x-full z-40"
         } ease-in-out duration-500`}
         style={{
@@ -450,7 +450,7 @@ const Header = ({ show, setShow }) => {
 
       {/* Login modals */}
       <div
-        className={`fixed w-full h-full block z-40 ${
+        className={`fixed w-full h-full block ${
           loginModal ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
@@ -557,7 +557,7 @@ const Header = ({ show, setShow }) => {
 
       {/* sign up buttons*/}
       <div
-        className={`fixed w-full h-full block z-40 ${
+        className={`fixed w-full h-full block ${
           signup ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
@@ -651,7 +651,7 @@ const Header = ({ show, setShow }) => {
 
       {/* customer sign up*/}
       <div
-        className={`fixed w-full h-full block z-40 ${
+        className={`fixed w-full h-full block ${
           customerModal ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
@@ -815,7 +815,7 @@ const Header = ({ show, setShow }) => {
 
       {/* rider sign up*/}
       <div
-        className={`fixed w-full h-full block z-40 ${
+        className={`fixed w-full h-full block ${
           riderModal ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
@@ -1446,7 +1446,7 @@ const Header = ({ show, setShow }) => {
 
       {/* vendor sign up */}
       <div
-        className={`fixed w-full h-full block  z-40${
+        className={`fixed w-full h-full block ${
           vendorModal ? "translate-y-0 z-40" : "translate-y-full z-40"
         } ease-in-out duration-500`}
         style={{
